@@ -25,3 +25,11 @@ setuptools.setup(
     ],
     python_requires=">=3.7",
 )
+  packages=[
+        "uniswapV3Python",
+        "uniswapV3Python.src",
+        "uniswapV3Python.src.libraries",
+        "uniswapV3Python.tests",
+    ],
+    python_requires=">=3.7",
+)
